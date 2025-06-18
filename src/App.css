@@ -926,3 +926,48 @@ body {
     margin-bottom: 0.5rem;
   }
 }
+@media screen and (max-width: 768px) {
+  /* Add padding to account for navbar */
+  #home {
+    padding-top: 4rem;
+  }
+
+  /* Reduce name text size */
+  .name-text {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+
+  /* Adjust position text */
+  .position-text {
+    font-size: 0.8rem;
+  }
+
+  .position-subtext {
+    font-size: 0.7rem;
+    line-height: 1.4;
+  }
+
+  /* Adjust status section spacing */
+  .status-section {
+    margin-bottom: 3rem; /* Add space before projects section */
+  }
+
+  .status-text p {
+    font-size: 0.7rem;
+    margin: 0.5rem 0;
+    padding: 0.4rem;
+  }
+
+  /* Adjust section spacing */
+  .content-section {
+    margin-top: 2rem;
+  }
+
+  /* Ensure sections don't overlap */
+  section {
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+}
