@@ -122,66 +122,71 @@ function App() {
 
       <section id="home">
         <div className="profile-container">
-          <div className="left-section">
-            <h1 className="name-text">Samir Sarwar</h1>
-            <div className="position-info">
-              <div className="position-container">
-                <p className="position-text">Software Engineer Intern @ TTC</p>
-                <img src={ttcLogo} className="ttc-logo" alt="TTC Logo" />
+          <div className="main-content-wrapper">
+            <div className="left-section">
+              <h1 className="name-text">Samir Sarwar</h1>
+              <div className="position-info">
+                <div className="position-container">
+                  <p className="position-text">
+                    Software Engineer Intern @ TTC
+                  </p>
+                  <img src={ttcLogo} className="ttc-logo" alt="TTC Logo" />
+                </div>
+                <p className="position-subtext">
+                  Leveraging my Technical Skills and Product Sense from Building
+                  Profitable apps with Hundreds of Users to pursue Product
+                  Management in Software.
+                </p>
               </div>
-              <p className="position-subtext">
-                Leveraging my Technical Skills and Product Sense from Building
-                Profitable apps with Hundreds of Users to pursue Product
-                Management in Software.
-              </p>
             </div>
-          </div>
 
-          <div className="image-section">
-            <img src={profileImg} className="profile" alt="Profile" />
-            <div className="social-links">
-              <a
-                href="https://www.linkedin.com/in/samir-sarwar-pm/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedin />
-              </a>
-              <a href="mailto:samir.sarwar@uwaterloo.ca">
-                <MdEmail />
-              </a>
-              <a
-                href="https://github.com/samir-sarwar"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub />
-              </a>
+            <div className="image-section">
+              <img src={profileImg} className="profile" alt="Profile" />
+              <div className="social-links">
+                <a
+                  href="https://www.linkedin.com/in/samir-sarwar-pm/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedin />
+                </a>
+                <a href="mailto:samir.sarwar@uwaterloo.ca">
+                  <MdEmail />
+                </a>
+                <a
+                  href="https://github.com/samir-sarwar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub />
+                </a>
+              </div>
             </div>
-          </div>
 
-          <div className="status-section">
-            <div className="status-text">
-              <p>
-                <span className="status-label">studying:</span> Computer
-                Engineering @ University of Waterloo
-              </p>
-              <p>
-                <span className="status-label">learning:</span> Product Strategy
-                & Java Backends
-              </p>
-              <p>
-                <span className="status-label">eating:</span> Caramel Churro
-                Protein Bar
-              </p>
-              <p>
-                <span className="status-label">playing:</span> GTA Vice City on
-                PSP
-              </p>
-              <p>
-                <span className="status-label">watching:</span> Vinland Saga &
-                Fifa Club World Cup
-              </p>
+            <div className="status-section">
+              <div className="status-text">
+                <p>
+                  <span className="status-label">studying:</span> Computer
+                  Engineering @ University of Waterloo & IBM AI Product
+                  Management Certification.
+                </p>
+                <p>
+                  <span className="status-label">learning:</span> Product
+                  Strategy & Java Backends
+                </p>
+                <p>
+                  <span className="status-label">eating:</span> Caramel Churro
+                  Protein Bar
+                </p>
+                <p>
+                  <span className="status-label">playing:</span> GTA Vice City
+                  on PSP
+                </p>
+                <p>
+                  <span className="status-label">watching:</span> Vinland Saga &
+                  Fifa Club World Cup
+                </p>
+              </div>
             </div>
           </div>
         </div>
