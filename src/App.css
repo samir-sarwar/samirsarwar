@@ -714,21 +714,22 @@ body {
   }
 
   /* Make name much smaller */
-  .name-text {
-    font-size: 1.8rem; /* Reduced from 2.5rem */
-    line-height: 1;
+  .name-text { /* Reduced from 2.5rem */
+    line-height: 1.1;
     margin-top: 9.5rem;
     align-self: center;
+    font-size: 1.2rem !important;
   }
-
+ 
   /* Reduce job title size */
   .position-text {
-    font-size: 0.8rem; /* Reduced from 0.9rem */
-    text-align: center
+    font-size: 0.6rem; /* Reduced from 0.9rem */
+    text-align: center;
+    line-height: 1.2;
   }
 
   .position-subtext {
-    font-size: 0.7rem; /* Reduced from 0.6rem */
+    font-size: 0.5rem; /* Reduced from 0.6rem */
     line-height: 1.2;
     text-align: center;
   }
@@ -745,7 +746,7 @@ body {
   .image-section {
     max-width: 250px; /* Reduced from 300px */
     padding: 0.5rem 0;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .profile {
@@ -754,7 +755,7 @@ body {
 
   /* Reduce social icons size */
   .social-links {
-    margin-top: 0.75rem;
+    margin-top: 0.35rem;
     gap: 1.25rem;
   }
 
@@ -764,7 +765,7 @@ body {
 
   /* Make status section smaller */
   .status-section {
-    padding: 0.5rem 0;
+    padding: 0rem 0;
   }
 
   .status-text {
@@ -797,6 +798,9 @@ body {
   }
 
   .projects-grid {
+    margin-left:1rem;
+    margin-right: 1rem;
+    grid-template-columns: 1fr; /* Single column for mobile */
     gap: 1.5rem;
     padding: 1rem;
   }
@@ -926,48 +930,4 @@ body {
     margin-bottom: 0.5rem;
   }
 }
-@media screen and (max-width: 768px) {
-  /* Add padding to account for navbar */
-  #home {
-    padding-top: 4rem;
-  }
 
-  /* Reduce name text size */
-  .name-text {
-    font-size: 1.8rem;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-  }
-
-  /* Adjust position text */
-  .position-text {
-    font-size: 0.8rem;
-  }
-
-  .position-subtext {
-    font-size: 0.7rem;
-    line-height: 1.4;
-  }
-
-  /* Adjust status section spacing */
-  .status-section {
-    margin-bottom: 3rem; /* Add space before projects section */
-  }
-
-  .status-text p {
-    font-size: 0.7rem;
-    margin: 0.5rem 0;
-    padding: 0.4rem;
-  }
-
-  /* Adjust section spacing */
-  .content-section {
-    margin-top: 2rem;
-  }
-
-  /* Ensure sections don't overlap */
-  section {
-    padding: 1rem;
-    margin-bottom: 2rem;
-  }
-}
