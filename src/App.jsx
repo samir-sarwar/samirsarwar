@@ -106,19 +106,21 @@ function App() {
           },
         }}
       />
-      <nav className="navbar">
-        <ul>
-          <li>
-            <a href="#home">home</a>
-          </li>
-          <li>
-            <a href="#projects">projects</a>
-          </li>
-          <li>
-            <a href="#experience">experience</a>
-          </li>
-        </ul>
-      </nav>
+      <div className="navbar-container">
+        <nav className="navbar">
+          <ul>
+            <li>
+              <a href="#home">home</a>
+            </li>
+            <li>
+              <a href="#projects">projects</a>
+            </li>
+            <li>
+              <a href="#experience">experience</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
       <section id="home">
         <div className="profile-container">

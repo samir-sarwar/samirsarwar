@@ -702,6 +702,10 @@ body {
   .navbar a{
     font-size: 0.6rem;
   }
+
+  .navbar-container {
+    margin-bottom: 8rem;
+  }
   .profile-container {
     min-height: auto;
     padding: 3rem 0.75rem 0.75rem;
@@ -716,7 +720,6 @@ body {
   /* Make name much smaller */
   .name-text { /* Reduced from 2.5rem */
     line-height: 1.1;
-    margin-top: 9.5rem;
     align-self: center;
     font-size: 1.2rem !important;
   }
