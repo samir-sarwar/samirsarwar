@@ -33,7 +33,7 @@ button {
   top: 0;
   width: 100%;
   padding: 1rem;
-  z-index: 2;
+  z-index: 10;
   transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
 }
 
@@ -117,15 +117,6 @@ button {
   max-width: 400px;
 }
 
-@keyframes glow {
-  from {
-    filter: drop-shadow(0 0 2em #646cff) drop-shadow(0 0 4em #646cff);
-  }
-  to {
-    filter: drop-shadow(0 0 3em #646cff) drop-shadow(0 0 6em #646cff);
-  }
-}
-
 .name-text {
   font-family: 'Press Start 2P', cursive;
   font-size: 4rem; /* Reduced from 4rem */
@@ -139,7 +130,7 @@ button {
   filter: 
     drop-shadow(0 0 2em #646cff) 
     drop-shadow(0 0 4em #646cff);
-    animation: glow 4s cubic-bezier infinite; /* Changed duration to 4s and added cubic-bezier easing */
+  /* Changed duration to 4s and added cubic-bezier easing */
 }
 
 
@@ -265,20 +256,8 @@ body {
   filter: 
     drop-shadow(0 0 2em #646cff) 
     drop-shadow(0 0 4em #646cff);
-  animation: sectionGlow 3s ease-in-out infinite;
 }
 
-@keyframes sectionGlow {
-  0% {
-    filter: drop-shadow(0 0 2em #646cff) drop-shadow(0 0 4em #646cff);
-  }
-  50% {
-    filter: drop-shadow(0 0 3em #646cff) drop-shadow(0 0 6em #646cff);
-  }
-  100% {
-    filter: drop-shadow(0 0 2em #646cff) drop-shadow(0 0 4em #646cff);
-  }
-}
 
 .section-content {
   width: 100%;
